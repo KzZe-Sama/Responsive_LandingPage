@@ -187,3 +187,156 @@ footer{
     margin: 80px 3%;
   }
 }
+/*For S-Mobiles*/
+@media screen and (max-width: 320px)
+{
+   .header
+  {
+    height:110vh;
+  }
+  .header-content
+  {
+    padding-top: 20vh;
+  }
+  .container
+  {
+    width: 90%;
+  }
+
+  
+  .header-content a
+  {
+    margin: 15px 0px;
+  }
+  .btn
+  {
+    size: 40px 40px;
+    margin: 10px 25px;
+    font-size: 20px;
+    display: block;
+
+  }
+  .btn-trans{
+    margin-top: 40px auto;
+    
+  }
+  .header-content h2 span{
+      line-height: 0px;
+      display: inline;
+      width: 90%;
+  }
+  .intro
+  {
+    padding: 2vh 0px;
+    height: 115vh;
+  }
+  .intro-content div img
+  {
+    height: 160px;
+    width: 80%
+  }
+  .services
+  {
+    height: 140vh;
+  }
+  .service-content{
+    display: block;
+    margin-top: -15vh;
+    padding-top: 40px;
+  }
+
+  .bucket
+  {
+    width: 90%;
+    margin: 60px 5%;
+    text-align: center;
+  }
+  .contact-section
+  {
+    margin: 0px 5px;
+  }
+  footer{
+  background-color: #f1c11a;
+  margin-top: -10vh;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 30px;
+  }
+} 
+
+/*For M-mobiles*/
+@media screen and (min-width: 375px)
+{
+   .header
+  {
+    height:110vh;
+  }
+  .header-content
+  {
+    padding-top: 20vh;
+  }
+  .container
+  {
+    width: 90%;
+  }
+
+  
+  .header-content a
+  {
+    margin: 15px 0px;
+  }
+  .btn
+  {
+    size: 40px 40px;
+    margin: 10px 55px;
+    font-size: 20px;
+    display: block;
+
+  }
+  .btn-trans{
+    margin-top: 40px auto;
+    
+  }
+  .header-content h2 span{
+      line-height: 0px;
+      display: inline;
+      width: 90%;
+  }
+  .intro
+  {
+    padding: 2vh 0px;
+    height: 105vh;
+  }
+  .intro-content div img
+  {
+    height: 160px;
+    width: 80%
+  }
+  .services
+  {
+    height: 120vh;
+  }
+  .service-content{
+    display: block;
+    margin-top: -15vh;
+    padding-top: 40px;
+  }
+
+  .bucket
+  {
+    width: 90%;
+    margin: 60px 5%;
+    text-align: center;
+  }
+  .contact-section
+  {
+    margin: 0px 5px;
+  }
+  footer{
+  background-color: #f1c11a;
+  margin-top: -10vh;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 30px;
+  }
+} 
